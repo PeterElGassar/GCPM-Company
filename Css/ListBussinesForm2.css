@@ -1,0 +1,62 @@
+.fa-cc-visa,
+.fa-cc-mastercard {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#businessSection {
+    background-color: rgb(231, 227, 227);
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    ;
+    width: 100%;
+    padding-top: 1vw;
+
+}
+
+input[type='radio']:after {
+
+    top: -8px;
+    left: -2px;
+
+}
+
+input[type='radio']:checked:after {
+
+    top: -8px;
+    left: -2px;
+
+}
+
+.imgDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgDiv .row .form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDiv .row {
+    display: flex;
+    justify-content: center;
+}
+
+.btnSubmit {
+    background-color: #0c2e4e;
+    border-radius: 0px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.praviousStep {
+    font-size: 1.25rem;
+    color: rgb(26, 25, 25);
+    padding: 35px 0px 10px 40px;
+}

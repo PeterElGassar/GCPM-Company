@@ -1,0 +1,190 @@
+.removeBorderImg {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.activeFlex {
+    display: flex;
+}
+
+/* Bootstrap Override */
+
+.subNav a.nav-link {
+    padding: .5rem 1rem .2rem;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#navbarMenue li a {
+    font-size: 1.2rem;
+}
+
+.navBtnToggel {
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+
+/* Main Color 0c2e4e */
+
+.subNav {
+    background-color: #0c2e4e;
+}
+
+.notification {
+    border-radius: 50%;
+    padding: 1px 9px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Bannel */
+.bannelSection {}
+
+.bannelSection h2 {
+    text-align: center;
+    color: #0c2e4e;
+    font-weight: 700;
+}
+
+.bannel-img {
+    background-image: url(/images/top-view-photo-of-people-near-wooden-table-3183150.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    /* position: relative; */
+    background-attachment: fixed;
+}
+
+/* Payment Plan  */
+.paymentPlan .row {
+    background-color: rgb(226, 226, 226);
+}
+
+.paymentCol {
+    padding: 35px 16px;
+}
+
+.paymentCol .paymentDiv {
+    background-color: white;
+    padding: 5px 10px;
+    /* margin: 15px 10px; */
+    box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.438);
+    /* Horizontal - vertical - BLUE -Distance  - color */
+}
+
+.paymentCol .paymentDiv p {
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.paymentCol .paymentDiv span {
+    color: #0c2e4e;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.paymentCol h2 {
+    color: #0c2e4e;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #0c2e4e;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.paymentDiv input[type='radio'] {
+    line-height: 0 !important;
+}
+
+/* Amount Section  */
+.amountSection button {
+    background-color: #0c2e4e;
+    color: white;
+    border-radius: 0px;
+    margin: 48px 48px 0px 48px;
+}
+
+.amountDiv {
+    padding: 10px 15px;
+    background-color: rgb(189, 189, 189);
+}
+
+.amountDiv label {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.amountDiv span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.amountDiv-radioBtn p {
+    margin-left: 15px;
+}
+
+.priceDiv {
+    padding: 14px 0px 0px 5px;
+    text-align: left;
+    background-color: rgb(228, 228, 228);
+    min-height: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #0c2e4e;
+    padding: 25px 0px 20px 0px;
+    margin-top: 150px;
+}
+
+footer h5 {
+    color: #6c757d !important;
+}
+
+.linksDiv {
+    flex-direction: column;
+    margin: 10px;
+}
+
+.linksDiv a {
+    color: white;
+    padding: 10px 5px;
+}

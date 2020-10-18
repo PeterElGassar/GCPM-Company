@@ -1,0 +1,93 @@
+.fa-cc-visa,
+.fa-cc-mastercard {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.businessSection {
+    background-color: rgb(231, 227, 227);
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 10px 15px;
+
+}
+
+.my-box {
+    min-height: 200px;
+    background-color: hotpink;
+    margin: 10px 15px;
+    padding: 20px;
+}
+
+.label-note {
+    font-size: 1rem;
+}
+
+:-webkit-input-placeholder {
+    font-size: 0.5rem !important;
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1rem;
+}
+
+:-moz-placeholder {
+    font-size: 1rem;
+
+}
+
+::-moz-placeholder {
+    font-size: 1rem;
+
+}
+
+:-ms-input-placeholder {
+    font-size: 1rem;
+
+}
+
+/* New Code For */
+/* New Code For */
+/* New Code For */
+
+.Theerd-col {
+    top: 99px;
+}
+
+/* Tablet And Mobile */
+@media(max-width:767px) {
+    .Theerd-col {
+        position: static;
+        top: 0px;
+    }
+}
+
+/*END New Code For */
+/*END New Code For */
+/*END New Code For */
+
+/* Bootstrap Override Form Classes*/
+.form-control {
+    border-radius: 0px;
+    height: calc(2em + .75rem + 2px);
+    border: 1.5px solid #ced4da;
+}
+
+
+
+
+/* BTN Sumbition */
+
+.btnUpload,
+.btnPayment {
+    background-color: #0c2e4e;
+    border-radius: 0px;
+}
+
+.btnPayment {}
